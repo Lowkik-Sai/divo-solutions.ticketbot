@@ -11,7 +11,7 @@ const path = require('path');
 let dev = fs.existsSync('user/dev.env') && fs.existsSync('user/dev.config.js');
 
 require('dotenv').config({path: path.join('user/', dev ? 'dev.env' : '.env')});
-require("./src/server.js");
+require('src/server.js');
 
 module.exports.config = dev ? 'dev.config.js' : 'config.js';
 const config = require(path.join('../user/', module.exports.config));
