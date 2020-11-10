@@ -35,11 +35,11 @@ module.exports = {
 	err_colour: '#E74C3C',
 	cooldown: 3,
 
-	guild: '', // ID of your guild
-	staff_role: '', // ID of your Support Team role
+	guild: '763233532369567765', // ID of your guild
+	staff_role: '772022106887159838', // ID of your Support Team role
 
 	tickets: {
-		category: '', // ID of your tickets category
+		category: '771936611063038012', // ID of your tickets category
 		send_img: true,
 		ping: 'here',
 		text: `Hello there, {{ tag }}!
@@ -77,7 +77,7 @@ module.exports = {
 		},
 		discord: {
 			enabled: false,
-			channel: '' // ID of your log channel
+			channel: '772015807285690369' // ID of your log channel
 		}
 	},
 	
