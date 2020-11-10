@@ -7,6 +7,7 @@
 	"dependencies": {
 		"@eartharoid/dtf": "^1.0.7",
 		"boxen": "^4.2.0",
+                "express": "^4.17.1",
 		"discord.js": "^12.3.1",
 		"dotenv": "^8.2.0",
 		"leekslazylogger": "^2.0.3",
