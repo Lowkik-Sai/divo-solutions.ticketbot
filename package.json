@@ -1,9 +1,9 @@
 {
 	"name": "@eartharoid/discordtickets",
-	"version": "2.1.1",
+	"version": "2.0.1",
 	"private": true,
 	"description": "An open-source & self-hosted Discord bot for ticket management.",
-	"main": "src/index.js",
+	"main": "index.js",
 	"dependencies": {
 		"@eartharoid/dtf": "^1.0.7",
 		"boxen": "^4.2.0",
@@ -27,7 +27,7 @@
 		"nodemon": "^2.0.4"
 	},
 	"scripts": {
-		"start": "node src/",
+		"start": "node .",
 		"test": "echo \"Nothing to test! Run with 'npm start'\" && exit 1"
 	},
 	"engines": {
